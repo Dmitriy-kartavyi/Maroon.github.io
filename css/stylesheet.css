@@ -391,10 +391,10 @@ body._lock {
 }
 .page .slick-prev {
   margin: 0 58px 0 0;
-  background: url("/img/Slider/left.png") 0 0/100% no-repeat;
+  background: url("../img/Slider/left.png") 0 0/100% no-repeat;
 }
 .page .slick-next {
-  background: url("/img/Slider/right.png") 0 0/100% no-repeat;
+  background: url("../img/Slider/right.png") 0 0/100% no-repeat;
 }
 .page__two {
   overflow: hidden;
