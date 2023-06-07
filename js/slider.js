@@ -8,16 +8,17 @@ $(document).ready(function(){
       touchThreshold: 10,
       variableWidth: true,
       appendArrows:$('.slider__arrows'),
+      waitForAnimate:false,
       responsive:[
          {
             breakpoint: 1054,
             settings: {
-               arrows: false,
-               centerMode: true,
+               arrows: false,              
                autoplaySpeed: 2000,
-               slidesToShow: 3,
+               slidesToShow: 5,
                slidesToScroll: 1,
-               touchThreshold: 4,
+               touchThreshold: 10,
+               centerMode: true,
             }
          }
       ]
