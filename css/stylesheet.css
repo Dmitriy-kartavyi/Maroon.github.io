@@ -679,6 +679,20 @@ body._lock {
   text-align: center;
 }
 
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.contant__container {
+  flex: 1 1 auto;
+}
+
 .page__three {
   overflow: hidden;
 }
